@@ -1,0 +1,13 @@
+Form for adding and editing students
+
+Key aspects
+
+1. If any field is missing - error.
+
+2. If a field is filled with an inappropriate data type - error.
+
+    Examples: Name cannot contain numbers, phone number cannot contain letters. Email always requires @gmail.com at the end.
+
+3. Phone number must start with + and may have a limit of 12 digits.
+
+4. If an error is generated, the user does not lose the information previously entered in the fields.
